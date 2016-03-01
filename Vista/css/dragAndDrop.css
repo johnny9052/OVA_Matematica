@@ -1,0 +1,145 @@
+
+section {
+    margin: auto;
+    width: 1000px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-shadow: 0px 0px 1px #d0eb6a;
+}
+
+h2, h3{
+    color: #e7931a;
+}
+
+
+footer, header{
+    background: rgba(20,20,20,0.8);
+    box-shadow: 0px 0px 10px  2px #777;
+    /*color: #d0eb6a;
+    color: #e7931a; */
+    color: #f28516;
+    padding: 10px 50px;
+    width: 900px;
+    border-radius: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+
+/* Pie de pagina */
+footer #autor {
+    float: left;
+}
+
+footer #blog {
+    float: right;
+}
+
+
+
+/* Contenedor del puzzle*/
+#contenedorPuzzle {
+    margin: 20px auto;
+    width: 900px;
+    background: rgba(20,20,20,0.8);
+    box-shadow: 0px 0px 10px  2px #777;
+    color: #ccc;
+    padding: 10px 50px 50px 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* Puzzle */
+#contenedorPiezas{
+    /*    background: #e7931a;*/
+    width: 100px;
+    height: 500px;
+    float: left;
+    margin-left: 20px;
+    /*    box-shadow: 0px 0px 10px  2px #d0eb6a;*/
+}
+
+
+
+#contenedoresJuego02{    
+    width: 400px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+#contenedoresJuego04{    
+    width: 600px;
+    height: 200px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+#contenedoresJuego05{    
+    width:100px;
+    height: 500px;     
+}
+
+#puzzle {
+    /*    background: #d0eb6a;*/
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-right: 20px;
+    /*    box-shadow: 0px 0px 10px  2px #e7931a;*/
+}
+.contenedorPieza {
+    border: 1px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    /*background-color: #CB1919;*/    
+}
+
+
+#contenedorPuzzle img {
+    float: left;
+    padding: 1px;
+    width: 198px;
+    height: 198px;
+}
+
+.campo{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.fondoJuego01{
+    background-image: url(../imagenes/juegos/conjuntos/juego01/fondo.png);  
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 500px;
+}
+
+
+.fondoJuego02{
+    background-image: url(../imagenes/juegos/conjuntos/juego02/fondo.png);        
+    width: 1200px;
+    height: 500px;
+}
+
+
+.fondoJuego04{
+    background-image: url(../imagenes/juegos/conjuntos/juego04/fondo.png);        
+    width: 1200px;
+    height: 500px;
+}
+
+.fondoJuego05{
+    background-image: url(../imagenes/juegos/conjuntos/juego05/fondo.png);        
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 500px;
+}
